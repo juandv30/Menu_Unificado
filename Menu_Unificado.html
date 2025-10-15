@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de Accesos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+    .button-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    button {
+      padding: 20px 40px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background: #0078d4;
+      color: white;
+      cursor: pointer;
+      transition: transform 0.2s, background 0.2s;
+    }
+    button:hover {
+      background: #005fa3;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>📁 Panel de Accesos Rápidos</h1>
+  <div class="button-container">
+    <button onclick="window.open('https://juriscoop-my.sharepoint.com/:f:/g/personal/jdiosa_juriscoop_com_co/Epnn6bUIf09Bq6OagigI3UAB05nD9ra3d4Qyjt24KQ0q-A?e=ibOfLe')">INSTALANYWERE</button>
+    <button onclick="window.open('https://juriscoop-my.sharepoint.com/:f:/g/personal/jdiosa_juriscoop_com_co/EiTk35Ees-FLmZimAeOmAUIBYQFcps1Dmnr3ricX07ei6Q?e=huSb8M')">CCTV</button>
+    <button onclick="window.open('https://juriscoop-my.sharepoint.com/:f:/g/personal/jdiosa_juriscoop_com_co/ErxI-2-hCRxJofTsn5p_BLUBFlQXrzUwr7k9YpFluYAujA?e=nXwUeM')">PROYECTOS</button>
+  </div>
+</body>
+</html>
